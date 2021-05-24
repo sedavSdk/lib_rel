@@ -8,12 +8,11 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 public class TopDoorOut extends Actor {
     Sprite sprite;
     TopDoorOut(){
-        setZIndex(0);
-
         setBounds(0, 0, 300, 300);
 
         sprite = new Sprite(new Texture("top_door.png"));
         sprite.setBounds(0, 260,300,350);
+        setZIndex(10);
     }
 
     @Override
@@ -23,7 +22,7 @@ public class TopDoorOut extends Actor {
 
     @Override
     public void act(float delta) {
-        if(sprite.getY() < 600) sprite.setY(sprite.getY() + 5);
+        if(sprite.getY() < 600) sprite.setY(sprite.getY() + 7);
         else remove();
     }
 }

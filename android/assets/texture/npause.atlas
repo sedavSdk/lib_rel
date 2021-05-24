@@ -1,0 +1,20 @@
+
+npause.png
+size: 256,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+npause_down
+  rotate: false
+  xy: 93, 6
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+npause_up
+  rotate: false
+  xy: 2, 2
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1

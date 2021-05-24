@@ -1,0 +1,20 @@
+
+insane2.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+insane2_down
+  rotate: false
+  xy: 191, 6
+  size: 184, 86
+  orig: 184, 86
+  offset: 0, 0
+  index: -1
+insane2_up
+  rotate: false
+  xy: 2, 2
+  size: 187, 90
+  orig: 187, 90
+  offset: 0, 0
+  index: -1

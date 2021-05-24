@@ -18,6 +18,7 @@ public class BottomDoorOut extends Actor {
 
         sprite = new Sprite(new Texture("bottom.png"));
         sprite.setBounds(0, 0,300,350);
+        setZIndex(10);
     }
 
     @Override
@@ -27,7 +28,7 @@ public class BottomDoorOut extends Actor {
 
     @Override
     public void act(float delta) {
-        if(sprite.getY() > -340) sprite.setY(sprite.getY() - 5);
+        if(sprite.getY() > -340) sprite.setY(sprite.getY() - 7);
         else{
             Gdx.input.setInputProcessor(stage);
             remove();

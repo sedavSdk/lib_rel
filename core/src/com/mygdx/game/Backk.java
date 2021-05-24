@@ -9,11 +9,11 @@ import javax.swing.Spring;
 
 public class Backk extends Actor {
     Sprite sprite;
-    Backk(){
+    Backk(Texture texture){
 
         setBounds(0, 0, 300, 600);
 
-        sprite = new Sprite(new Texture("fon.png"));
+        sprite = new Sprite(texture);
         sprite.setBounds(0, 0,300,600);
     }
 

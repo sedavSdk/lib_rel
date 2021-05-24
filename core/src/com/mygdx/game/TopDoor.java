@@ -22,6 +22,6 @@ public class TopDoor extends Actor {
 
     @Override
     public void act(float delta) {
-        if(sprite.getY() > 260) sprite.setY(sprite.getY() - 5);
+        if(sprite.getY() > 260) sprite.setY(sprite.getY() - 7);
     }
 }

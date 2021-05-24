@@ -9,11 +9,11 @@ public class NextStage {
     TopDoor topDoor;
     BottomDoor bottomDoor;
     Start game;
-    public void goNext (Stage nowStage, Start game){
+    public void goNext (Stage nowStage, Start game, Screen screen){
         stage = nowStage;
 
         topDoor = new TopDoor();
-        bottomDoor = new BottomDoor(game);
+        bottomDoor = new BottomDoor(game, screen, stage);
 
         this.game = game;
 
